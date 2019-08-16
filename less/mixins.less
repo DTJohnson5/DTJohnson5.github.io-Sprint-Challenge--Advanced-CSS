@@ -1,1 +1,19 @@
 // Mixins Here
+
+.btn(@font-size, @btn-bg-color, @border-radius, @porcelain) {
+    font-size: @font-size;
+    background-color: @btn-bg-color;
+    border-radius: @border-radius;
+    color: @porcelain;
+}
+
+.hover(@font-size, @btn-bg-color, @border-radius, @porcelain) {
+    font-size: @font-size;
+    background-color: @porcelain;
+    border-radius: @border-radius;
+    color: @btn-bg-color;
+}
+
+.border-top {
+    border-top: 1px solid @main-border-color;
+}
